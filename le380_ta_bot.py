@@ -271,8 +271,8 @@ with tab2:
         total_questions = len(exam_data_list)
         questions_done = len(st.session_state["questions_done"])
         
-        #estimated_progress = min(questions_done / total_questions * 100, 100) 
-        estimated_progress = 100
+        estimated_progress = min(questions_done / total_questions * 100, 100) 
+        
         col1, col2, col3 = st.columns(3)
         with col1:
             st.metric(label="จำนวนข้อสอบทั้งหมด", value=f"{total_questions} ข้อ")
@@ -307,4 +307,5 @@ with tab2:
             # ปรับ column ตาม structure จริงของ json คุณ
             st.dataframe(df, use_container_width=True)
         else:
+
             st.text("รูปแบบ JSON ไม่ตรงกับตาราง หรือไม่มีข้อมูล")
