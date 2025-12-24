@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "E68_S1_Q1.1",
+    "question_text": "จงอธิบายหลักการทำงานและข้อควรระวังของการวัดกระแสไฟฟ้าแบบ Indirect (เช่น Current Transformer) และแบบ Direct (เช่น Current Shunt) พร้อมระบุข้อดีและข้อเสียของแต่ละวิธีในการใช้งานจริง",
+    "question_type": "Principle/Comparison",
+    "related_CLO": ["CLO1", "CLO3"],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E68_S1_Q1.2",
+    "question_text": "ในการวัดกำลังไฟฟ้ากระแสสลับ (AC Power) จงอธิบายความแตกต่างระหว่าง True RMS Power และ Apparent Power พร้อมระบุปัจจัยที่ทำให้เกิดความแตกต่างนี้ และวงจรพื้นฐานที่ใช้ในการวัด True RMS Power",
+    "question_type": "Principle/Analysis",
+    "related_CLO": ["CLO3"],
+    "difficulty": "Hard",
+    "estimated_time_sec": 300,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E68_S1_Q1.3",
+    "question_text": "จงอธิบายหลักการทำงานของ Energy Meter และยกตัวอย่างปัจจัยสำคัญที่ส่งผลต่อความแม่นยำในการวัดพลังงานไฟฟ้า โดยเฉพาะในบริบทของการเก็บข้อมูลระยะยาว",
+    "question_type": "Principle/Analysis",
+    "related_CLO": ["CLO3", "CLO5"],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E68_S1_Q1.4",
+    "question_text": "สมมติว่าคุณต้องการวัดกระแสไฟฟ้า DC สูงสุด 20A จากแหล่งจ่ายไฟ 12V DC เพื่อควบคุมมอเตอร์ จงออกแบบวงจรวัดกระแสโดยใช้ Shunt Resistor พร้อมคำนวณค่า Shunt Resistor ที่เหมาะสมเพื่อให้ได้แรงดันตกคร่อมสูงสุด 100mV และระบุค่าความต้านทานขาเข้าที่จำเป็นสำหรับวงจรภาคขยายสัญญาณเพื่อให้การวัดถูกต้อง",
+    "question_type": "Design/Calculation",
+    "related_CLO": ["CLO3"],
+    "difficulty": "Hard",
+    "estimated_time_sec": 300,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E68_S1_Q2.1",
+    "question_text": "จงอธิบายหลักการทำงานของเซ็นเซอร์ Strain Gauge รวมถึงโครงสร้างพื้นฐานของ Strain Gauge และการประยุกต์ใช้ในวงจร Wheatstone Bridge เพื่อแปลงความเครียดเป็นสัญญาณไฟฟ้า",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": ["CLO1", "CLO3"],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E68_S1_Q2.2",
+    "question_text": "จงอธิบายความสัมพันธ์ระหว่างอุณหภูมิและความต้านทานของ Thermistor ชนิด NTC โดยใช้สมการ Steinhart-Hart หรือ B-parameter equation พร้อมอธิบายว่าค่า 'B' (Beta) parameter มีความสำคัญต่อลักษณะเฉพาะของ Thermistor อย่างไร",
+    "question_type": "Principle/Calculation",
+    "related_CLO": ["CLO1", "CLO5"],
+    "difficulty": "Hard",
+    "estimated_time_sec": 300,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E68_S1_Q2.3",
+    "question_text": "จงเปรียบเทียบหลักการทำงาน, ข้อดี, และข้อเสียของ Thermocouple กับ RTD ในการวัดอุณหภูมิ พร้อมยกตัวอย่างสถานการณ์ที่เหมาะสมกับการใช้งานเซ็นเซอร์แต่ละชนิด",
+    "question_type": "Comparison/Analysis",
+    "related_CLO": ["CLO1", "CLO2"],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E68_S1_Q2.4",
+    "question_text": "จงอธิบายหลักการทำงานของ Piezoelectric Sensor ในการตรวจจับแรงดันหรือแรงกล พร้อมยกตัวอย่างการประยุกต์ใช้ในอุตสาหกรรม และอธิบายว่าวงจรปรับสภาพสัญญาณใดที่มักใช้ร่วมกับเซ็นเซอร์ชนิดนี้",
+    "question_type": "Principle/Application",
+    "related_CLO": ["CLO1", "CLO3"],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E68_S1_Q3.1",
+    "question_text": "จงอธิบายหลักการทำงานของวงจร Active Low-Pass Filter (เช่น Sallen-Key) พร้อมยกตัวอย่างการคำนวณค่าส่วนประกอบ (R, C) สำหรับความถี่คัตออฟที่กำหนด และอธิบายถึงข้อดีที่เหนือกว่า Passive Filter ในการใช้งานจริง",
+    "question_type": "Principle/Design",
+    "related_CLO": ["CLO3"],
+    "difficulty": "Hard",
+    "estimated_time_sec": 300,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E68_S1_Q3.2",
+    "question_text": "จงอธิบายความสำคัญของ Common-Mode Rejection Ratio (CMRR) ใน Instrumentation Amplifier และแสดงให้เห็นว่า CMRR สูงมีส่วนช่วยในการลดสัญญาณรบกวนที่พบในสภาพแวดล้อมทางอุตสาหกรรมได้อย่างไร",
+    "question_type": "Principle/Analysis",
+    "related_CLO": ["CLO3", "CLO4"],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E68_S1_Q3.3",
+    "question_text": "จงออกแบบวงจร Voltage Follower หรือ Buffer Amplifier โดยใช้ Op-Amp พร้อมอธิบายความสำคัญของความต้านทานขาเข้าที่สูงและความต้านทานขาออกที่ต่ำของวงจรนี้ในการป้องกัน Loading Effect เมื่อเชื่อมต่อกับแหล่งกำเนิดสัญญาณที่มีความต้านทานภายในสูง",
+    "question_type": "Design/Principle",
+    "related_CLO": ["CLO3"],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E68_S1_Q3.4",
+    "question_text": "จงเปรียบเทียบวงจรแปลงแรงดันเป็นกระแส (Voltage-to-Current Converter) และวงจรแปลงกระแสเป็นแรงดัน (Current-to-Voltage Converter) ในแง่ของหลักการทำงาน การประยุกต์ใช้ และความท้าทายในการออกแบบสำหรับเซ็นเซอร์ประเภทต่างๆ",
+    "question_type": "Comparison/Design",
+    "related_CLO": ["CLO3"],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E68_S1_Q4.1",
+    "question_text": "จงอธิบายถึง Resolution และ Quantization Error ของ Analog-to-Digital Converter (ADC) ในอุปกรณ์ NI MyRIO พร้อมคำนวณค่าแรงดันที่เล็กที่สุดที่สามารถตรวจจับได้ (LSB) หาก MyRIO มี ADC ขนาด 12-bit และช่วงการวัด 0-5V",
+    "question_type": "Principle/Calculation",
+    "related_CLO": ["CLO3"],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": "อ้างอิง Spec myRIO (12-bit resolution, 0-5V range)"
+  },
+  {
+    "question_id": "E68_S1_Q4.2",
+    "question_text": "จงอธิบายหลักการของ Nyquist Sampling Theorem และผลกระทบของการเกิด Aliasing ในการเก็บข้อมูลด้วย MyRIO พร้อมระบุวิธีการป้องกัน Aliasing ที่สามารถทำได้ทั้งในภาค Hardware และ Software",
+    "question_type": "Principle/Application",
+    "related_CLO": ["CLO3"],
+    "difficulty": "Hard",
+    "estimated_time_sec": 300,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E68_S1_Q4.3",
+    "question_text": "จงเปรียบเทียบข้อดีและข้อเสียของการต่อวัดสัญญาณแบบ Single-Ended (SE) และ Differential (DIFF) บน MyRIO พร้อมยกตัวอย่างสถานการณ์ที่เหมาะสมสำหรับแต่ละรูปแบบการเชื่อมต่อ",
+    "question_type": "Comparison/Application",
+    "related_CLO": ["CLO3"],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": "อ้างอิงข้อมูลประกอบ myRIO"
+  },
+  {
+    "question_id": "E68_S1_Q4.4",
+    "question_text": "ในการประยุกต์ใช้ MyRIO สำหรับการวัดสัญญาณที่มีความถี่สูงและต้องการความแม่นยำสูง จงอธิบายถึงปัจจัยที่ต้องพิจารณาในการเลือก Sample Rate ที่เหมาะสม และผลกระทบของ Sample Rate ที่สูงเกินไปหรือต่ำเกินไปต่อคุณภาพของข้อมูลที่ได้",
+    "question_type": "Analysis/Application",
+    "related_CLO": ["CLO3"],
+    "difficulty": "Hard",
+    "estimated_time_sec": 300,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E68_S1_Q5.1",
+    "question_text": "จงอธิบายปัญหา Ground Loop ที่เกิดขึ้นในระบบวัดสัญญาณ พร้อมระบุสาเหตุหลักของการเกิด Ground Loop และวิธีการแก้ไขปัญหาเบื้องต้น 3 วิธี",
+    "question_type": "Principle/Problem Solving",
+    "related_CLO": ["CLO4"],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E68_S1_Q5.2",
+    "question_text": "จงเปรียบเทียบสัญญาณรบกวนแบบ Near-Field และ Far-Field ในแง่ของแหล่งกำเนิด ลักษณะการแพร่กระจาย และวิธีการลดทอนที่เหมาะสมสำหรับแต่ละประเภท",
+    "question_type": "Comparison/Principle",
+    "related_CLO": ["CLO4"],
+    "difficulty": "Hard",
+    "estimated_time_sec": 300,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E68_S1_Q5.3",
+    "question_text": "จงอธิบายหลักการทำงานของเทคนิค Shielding และ Grounding ในการลดทอนสัญญาณรบกวน โดยเน้นที่ความสำคัญของการต่อกราวด์ที่เหมาะสมของ Shield (เช่น Single-Point Grounding) และชนิดของวัสดุที่ใช้",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": ["CLO4"],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E68_S1_Q5.4",
+    "question_text": "ในสภาพแวดล้อมโรงงานอุตสาหกรรมที่มีมอเตอร์ไฟฟ้าขนาดใหญ่และสายสัญญาณยาวหลายร้อยเมตร จงอธิบายว่าทำไมการใช้สายสัญญาณแบบ Twisted Pair และการส่งสัญญาณแบบ Differential จึงเป็นเทคนิคที่นิยมใช้ในการลดสัญญาณรบกวน และอธิบายว่าเทคนิคเหล่านี้ทำงานร่วมกันอย่างไร",
+    "question_type": "Analysis/Application",
+    "related_CLO": ["CLO4"],
+    "difficulty": "Hard",
+    "estimated_time_sec": 300,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E68_S1_Q6.1",
+    "question_text": "จงอธิบายความจำเป็นในการสอบเทียบ (Calibration) เครื่องมือวัดจากมุมมองของการรับรองคุณภาพมาตรฐาน (e.g., ISO standards) และความน่าเชื่อถือของผลการวัดในงานวิศวกรรม",
+    "question_type": "Analysis",
+    "related_CLO": ["CLO5"],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E68_S1_Q6.2",
+    "question_text": "จากข้อมูลการวัดของเซ็นเซอร์ LM35 ที่ตารางด้านล่าง จงหาสมการเชิงเส้นที่อธิบายคุณสมบัติของเซ็นเซอร์นี้ (สมมติว่าเป็นเชิงเส้น) และคำนวณค่าสัมประสิทธิ์ความไว (Sensitivity) ของเซ็นเซอร์",
+    "question_type": "Calculation/Analysis",
+    "related_CLO": ["CLO5"],
+    "difficulty": "Hard",
+    "estimated_time_sec": 480,
+    "reference_context": "ตารางข้อมูล: อุณหภูมิ (C) | แรงดัน (mV) \n 10 | 105 \n 20 | 195 \n 30 | 310 \n 50 | 490 \n 60 | 600"
+  },
+  {
+    "question_id": "E68_S1_Q6.3",
+    "question_text": "จากการทดลองวัดอุณหภูมิซ้ำ 10 ครั้ง ได้ข้อมูลดังนี้: 25.1, 25.3, 24.9, 25.0, 25.2, 25.1, 25.0, 25.3, 25.2, 25.0 (หน่วยเป็นองศาเซลเซียส) จงคำนวณหาค่าเฉลี่ย (Nominal Value) และค่าความไม่แน่นอนแบบมาตรฐาน (Standard Uncertainty) ของข้อมูลชุดนี้",
+    "question_type": "Calculation",
+    "related_CLO": ["CLO5"],
+    "difficulty": "Hard",
+    "estimated_time_sec": 480,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E68_S1_Q6.4",
+    "question_text": "จงอธิบายแหล่งที่มาหลักของค่าความไม่แน่นอน (Sources of Uncertainty) ในระบบการวัดอุณหภูมิโดยใช้เซ็นเซอร์ LM35 รวมถึงวิธีการประเมินและลดผลกระทบของความไม่แน่นอนเหล่านั้น",
+    "question_type": "Analysis/Problem Solving",
+    "related_CLO": ["CLO5"],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E68_S1_Q7.1",
+    "question_text": "การออกแบบวงจร Thermistor Voltage Divider: กำหนดให้ใช้ Thermistor รุ่น NTCG063JF103FTDS (R@25C = 10kΩ, B25/50 = 3450K) และต้องการวัดอุณหภูมิในช่วง 0°C ถึง 70°C ด้วยแหล่งจ่ายไฟ 5V DC จงคำนวณค่าความต้านทานของ Thermistor ที่อุณหภูมิ 0°C, 25°C, และ 70°C พร้อมทั้งออกแบบวงจร Voltage Divider (เลือกค่า Resistor ตัวอื่นที่เหมาะสม) เพื่อให้ได้ช่วงแรงดันเอาต์พุตที่มีความละเอียดสูงที่สุดในช่วงอุณหภูมิที่กำหนด",
+    "question_type": "Design/Calculation",
+    "related_CLO": ["CLO3", "CLO5"],
+    "difficulty": "Hard",
+    "estimated_time_sec": 480,
+    "reference_context": "ข้อมูล Thermistor NTCG063JF103FTDS (R@25C = 10kΩ, B25/50 = 3450K), แหล่งจ่ายไฟ 5V DC"
+  },
+  {
+    "question_id": "E68_S1_Q7.2",
+    "question_text": "การออกแบบวงจรขยายสัญญาณด้วย INA350: จากแรงดันเอาต์พุตของวงจร Voltage Divider ในข้อ 7.1 จงออกแบบวงจรภาคขยายสัญญาณโดยใช้ Instrumentation Amplifier รุ่น INA350 เพื่อให้แรงดันเอาต์พุตครอบคลุมช่วงแรงดันอินพุตของ MyRIO (0-5V) โดยอธิบายการคำนวณค่าอัตราขยาย (Gain) ที่เหมาะสมและพิจารณาเรื่อง Common-Mode Input Range ของ INA350",
+    "question_type": "Design/Calculation",
+    "related_CLO": ["CLO3"],
+    "difficulty": "Hard",
+    "estimated_time_sec": 480,
+    "reference_context": "ข้อมูล INA350 Datasheet (สมมติคุณสมบัติพื้นฐาน), MyRIO Input Range (0-5V)"
+  },
+  {
+    "question_id": "E68_S1_Q7.3",
+    "question_text": "การเชื่อมต่อกับ MyRIO และการประมวลผลสัญญาณ: จงอธิบายวิธีการเชื่อมต่อวงจรภาคขยายจากข้อ 7.2 เข้ากับ Analog Input ของ MyRIO (ระบุว่าเป็น Single-Ended หรือ Differential และเหตุผล) และอธิบายขั้นตอนการประมวลผลข้อมูลในโปรแกรม LabVIEW เพื่อแปลงค่าดิจิทัลที่อ่านได้กลับเป็นค่าอุณหภูมิที่ถูกต้อง โดยอ้างอิงถึงการสร้าง Look-up Table หรือใช้สมการที่เหมาะสม",
+    "question_type": "Application/Analysis",
+    "related_CLO": ["CLO3", "CLO5"],
+    "difficulty": "Hard",
+    "estimated_time_sec": 480,
+    "reference_context": "MyRIO ADC Specification (12-bit, 0-5V)"
+  },
+  {
+    "question_id": "E68_S1_Q7.4",
+    "question_text": "การพิจารณาข้อผิดพลาดและการสอบเทียบระบบ: จงระบุแหล่งที่มาของข้อผิดพลาดที่อาจเกิดขึ้นตลอดทั้งระบบวัดอุณหภูมิที่ออกแบบมา (ตั้งแต่ Thermistor ถึง MyRIO) และอธิบายขั้นตอนการสอบเทียบ (End-to-End Calibration) ของระบบนี้เพื่อเพิ่มความแม่นยำในการวัด",
+    "question_type": "Analysis/Problem Solving",
+    "related_CLO": ["CLO4", "CLO5"],
+    "difficulty": "Hard",
+    "estimated_time_sec": 360,
+    "reference_context": ""
+  }
+]

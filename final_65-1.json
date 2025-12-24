@@ -1,0 +1,311 @@
+[
+  {
+    "question_id": "E65_S1_Q1.1_C1",
+    "question_text": "จงอธิบายหลักการทำงานของเซ็นเซอร์ LDR",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO1"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 120,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E65_S1_Q1.2_C1",
+    "question_text": "จงอธิบายคุณสมบัติแบบ NTC และ PTC ของเซ็นเซอร์ thermistor",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO1"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 120,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E65_S1_Q1.3_C3",
+    "question_text": "จงอธิบายหลักการทำงานของวงจรในรูป",
+    "question_type": "Analysis",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 300,
+    "reference_context": "รูปวงจรที่ประกอบด้วย MAX6126, MAX11200 และวงจร Calibration "
+  },
+  {
+    "question_id": "E65_S1_Q1.4_C3",
+    "question_text": "จงอธิบายหลักการวัดความเก็บประจุด้วยหน่วยประมวลผล (ไฟเลี้ยง DC)",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E65_S1_Q2.1_C2",
+    "question_text": "จงอธิบายหลักการทำงานของ turbine flowmeter",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO2"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 120,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E65_S1_Q2.2_C2",
+    "question_text": "จงอธิบายหลักการวัดระดับน้ำในถังเก็บมา 1 วิธี",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO2"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 120,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E65_S1_Q2.3_C2",
+    "question_text": "จงอธิบายด้วยรูปด้านล่างนี้เกี่ยวกับวงจรที่ต้องใช้ร่วมกับ thermocouple",
+    "question_type": "Data Interpretation",
+    "related_CLO": [
+      "CLO2"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180,
+    "reference_context": "กราฟความสัมพันธ์แรงดันและอุณหภูมิของ Thermocouple และรูปกราฟชดเชย "
+  },
+  {
+    "question_id": "E65_S1_Q2.4_C4",
+    "question_text": "จงอธิบายปัญหาและวิธีการส่งสัญญาณจากเซ็นเซอร์ในโรงกลั่นน้ำมัน ซึ่งต้องเดินสายสัญญาณด้วยระยะทางในหลักหลายร้อยเมตร",
+    "question_type": "Analysis",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E65_S1_Q3.1_C3",
+    "question_text": "จงเขียนรูปวงจรแปลงกระแสเป็นแรงดันและสมการที่เกี่ยวข้อง",
+    "question_type": "Recall",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 180,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E65_S1_Q3.2_C3",
+    "question_text": "จงเขียนรูปวงจรแปลงความต้านทานเป็นแรงดัน และสมการที่เกี่ยวข้อง",
+    "question_type": "Recall",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 180,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E65_S1_Q3.3_C3",
+    "question_text": "จงอธิบายการหาความต้านทานขาเข้าของวงจรในกรอบ",
+    "question_type": "Derivation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": "รูปวงจร Op-Amp Buffer / Non-inverting ที่ต่อกับ RC Filter "
+  },
+  {
+    "question_id": "E65_S1_Q3.4_C3",
+    "question_text": "จงอธิบายความเกี่ยวข้องของความต้านทานขาเข้าและ loading effect",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E65_S1_Q4.1_C3",
+    "question_text": "จงอธิบายข้อดีและข้อเสียของการต่อวัดสัญญาณแบบ single-ended",
+    "question_type": "Comparison",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180,
+    "reference_context": "อ้างอิงข้อมูลประกอบ myRIO หน้า 5 "
+  },
+  {
+    "question_id": "E65_S1_Q4.2_C3",
+    "question_text": "จงอธิบายวิธีการต่อวัดสัญญาณของอุปกรณ์ myRIO",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 120,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E65_S1_Q4.3_C3",
+    "question_text": "จงแสดงการคำนวณค่าดิจิตอลที่ได้เมื่อวัดแรงดัน 1.5 โวลต์",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180,
+    "reference_context": "อ้างอิง Spec myRIO (12-bit resolution, 0-5V range for MXP) "
+  },
+  {
+    "question_id": "E65_S1_Q4.4_C3",
+    "question_text": "จงอธิบายหลักการ Nyquist sampling rate กับอุปกรณ์ myRIO",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E65_S1_Q5.1_C3",
+    "question_text": "จงเขียนสมการแรงดันออกของ instrumentation amplifier",
+    "question_type": "Recall",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 60,
+    "reference_context": "อ้างอิงข้อมูล AD620 หน้า 5 "
+  },
+  {
+    "question_id": "E65_S1_Q5.2_C3",
+    "question_text": "จงอธิบายหลักการของ Common-Mode Rejection Ratio",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E65_S1_Q5.3_C3",
+    "question_text": "จงอธิบายความจำเป็น/ประโยชน์ของวงจรขยายแบบ instrumentation amplifier ที่เกี่ยวข้องกับสัญญาณรบกวน",
+    "question_type": "Analysis",
+    "related_CLO": [
+      "CLO3",
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E65_S1_Q5.4_C3",
+    "question_text": "จงคำนวณแรงดันออกเมื่อขยายสัญญาณด้วยอัตราขยาย",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 300,
+    "reference_context": "V1=5+(0.001)sin 100t โวลต์, V2 = 5 โวลต์ "
+  },
+  {
+    "question_id": "E65_S1_Q6.1_C4",
+    "question_text": "จงอธิบายว่าปัญหา ground loop เกิดจากอะไร",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 120,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E65_S1_Q6.2_C4",
+    "question_text": "จงอธิบายว่าแหล่งของสัญญาณรบกวนแบบ near field มีกี่ประเภท อะไรบ้าง",
+    "question_type": "Recall",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E65_S1_Q6.3_C4",
+    "question_text": "จงอธิบายหลักการลดทอนสัญญาณรบกวนดังรูป",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180,
+    "reference_context": "รูปวงจร Differential Signaling (Vs, Vout, RL) "
+  },
+  {
+    "question_id": "E65_S1_Q6.4_C4",
+    "question_text": "จงอธิบายเทคนิค shielding + grounding ลดทอนสัญญาณรบกวนได้อย่างไร",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E65_S1_Q7.1_C5",
+    "question_text": "จงอธิบายความจำเป็นในการสอบเทียบจากมุมมองของการควบคุมคุณภาพ",
+    "question_type": "Analysis",
+    "related_CLO": [
+      "CLO5"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180,
+    "reference_context": ""
+  },
+  {
+    "question_id": "E65_S1_Q7.2_C5",
+    "question_text": "จงหาสมการที่อธิบายคุณสมบัติของเซ็นเซอร์ LM35",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO5"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 480,
+    "reference_context": "ตารางข้อมูล: 10C->105mV, 20C->195mV, 30C->310mV, 50C->490mV, 60C->600mV "
+  },
+  {
+    "question_id": "E65_S1_Q7.3_C5",
+    "question_text": "จงคำนวณค่า nominal และ uncertainty ของข้อมูลที่ได้จากการวัด",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO5"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 480,
+    "reference_context": "ตารางข้อมูลดิบ: 95, 100, 105, 106, 106, 104, 97, 102, 105, 105 "
+  },
+  {
+    "question_id": "E65_S1_Q8_C3",
+    "question_text": "จงอธิบายระบบตรวจสอบสภาพแวดล้อมในห้องพักอาจารย์ที่เป็นโจทย์ mini-project #1",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 300,
+    "reference_context": ""
+  }
+]

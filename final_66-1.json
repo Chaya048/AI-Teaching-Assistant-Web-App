@@ -1,0 +1,264 @@
+[
+  {
+    "question_id": "E66_S1_Q1.1_C1",
+    "question_text": "จงยกตัวอย่างและอธิบายหลักการทำงานของเซ็นเซอร์ประเภท resistive transduction",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO1"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 120
+  },
+  {
+    "question_id": "E66_S1_Q1.2_C1",
+    "question_text": "จงอธิบายว่าทำไมความชื้นจึงทำให้ความเก็บประจุของเซ็นเซอร์วัดความชื้นเปลี่ยนแปลง",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO1"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E66_S1_Q1.3_C3",
+    "question_text": "จงเขียนวงจรอธิบายการวัดความต้านทานด้วยเทคนิควงจรแบ่งแรงดันและ current excitation และเปรียบเทียบข้อดีและข้อเสียของแต่ละเทคนิค",
+    "question_type": "Comparison",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 300
+  },
+  {
+    "question_id": "E66_S1_Q1.4_C3",
+    "question_text": "จงอธิบายการหาสมการสำหรับวัดค่า C ด้วยไมโครคอนโทรลเลอร์ (อ้างอิงวงจร Arduino RC )",
+    "question_type": "Derivation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E66_S1_Q2.1_C2",
+    "question_text": "จงอธิบายหลักการทำงานของเซ็นเซอร์ RTD",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO2"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 120
+  },
+  {
+    "question_id": "E66_S1_Q2.2_C2",
+    "question_text": "จงยกตัวอย่างและอธิบายหลักการทำงานของเซ็นเซอร์ที่ใช้วัดอัตราการไหล",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO2"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E66_S1_Q2.3_C3",
+    "question_text": "จงอธิบายหลักการทำงานและความจำเป็นของไอซี AD594 (อ้างอิง block diagram )",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E66_S1_Q2.4_C4",
+    "question_text": "จงอธิบายหลักการและความจำเป็นของการส่งสัญญาณ 4-20 mA",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E66_S1_Q3.1_C3",
+    "question_text": "จงอธิบายวงจรที่จำเป็นสำหรับการวัดสัญญาณจากเซ็นเซอร์ thermistor",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E66_S1_Q3.2_C3",
+    "question_text": "จงหาความต้านทานขาเข้าของวงจรขยายดังรูป (Non-inverting OpAmp )",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E66_S1_Q3.3_C3",
+    "question_text": "จงคำนวณแรงดันออกเมื่อใช้ differential amplifier (gain = 10 และ CMRR 80 dB) ขยายสัญญาณ V1 = 10 + 0.1 sin 10t โวลต์ และ V2 = 10 โวลต์",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 300
+  },
+  {
+    "question_id": "E66_S1_Q3.4_C3",
+    "question_text": "จงอธิบายทำไม instrumentation amplifier จึงเหมาะกับการวัดกระแสด้วยเทคนิค shunt resistor",
+    "question_type": "Analysis",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E66_S1_Q4.1_C3",
+    "question_text": "จงอธิบายความแตกต่างในการต่อวัดสัญญาณแบบ single-ended และ differential บน DAQ รุ่น USB-6008",
+    "question_type": "Comparison",
+    "related_CLO": [
+      "CLO2",
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E66_S1_Q4.2_C3",
+    "question_text": "จงอธิบายการหาความถี่สูงสุดของสัญญาณที่วัดได้ด้วย USB-6008 (อ้างอิง Spec )",
+    "question_type": "Analysis",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E66_S1_Q4.3_C3",
+    "question_text": "จงคำนวณค่า code width ของ USB-6008 เมื่อต่อแบบ single-ended และใช้ย่านการวัด +/- 10 V (อ้างอิง Spec: 11 bits resolution for single-ended )",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E66_S1_Q4.4_C3",
+    "question_text": "จงคำนวณค่าดิจิตอลในการวัดแรงดันตกคร่อม RTD เมื่อใช้แหล่งกระแส 1 mA โดยให้เลือกเงื่อนไขของการใช้งาน USB-6008 เอง",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 300
+  },
+  {
+    "question_id": "E66_S1_Q5.1_C4",
+    "question_text": "จงอธิบายวิธีแก้ปัญหา ground loop",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 120
+  },
+  {
+    "question_id": "E66_S1_Q5.2_C4",
+    "question_text": "จงอธิบายสาเหตุของการรบกวนแบบ capacitive coupling",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E66_S1_Q5.3_C4",
+    "question_text": "จงอธิบายว่าเทคนิค shielding และ grounding คืออะไร และมีข้อดีอย่างไรเมื่อใช้ร่วมกัน",
+    "question_type": "Analysis",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E66_S1_Q5.4_C4",
+    "question_text": "จงอธิบายว่าการส่งสัญญาณดังรูป (Differential signaling with twisted pair ) สามารถลดทอนสัญญาณรบกวนอะไร อย่างไร",
+    "question_type": "Analysis",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E66_S1_Q6.1_C5",
+    "question_text": "จงคำนวณหาสมการของเซ็นเซอร์ MCP9700 จากผลการสอบเทียบ (ข้อมูล: T=10,20,25,40,50 C; V=609,695,750,905,1005 mV)",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO5"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 480
+  },
+  {
+    "question_id": "E66_S1_Q6.2_C5",
+    "question_text": "จงคำนวณค่า nominal +/- uncertainty ที่ความเชื่อมั่น 95% ของชุดข้อมูลที่ได้จากการวัด (ข้อมูลดิบ: 10.73, 7.16, 11.36, 9.97, 9.95, 9.81, 11.44, 8.87, 8.98, 11.91)",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO5"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 480
+  },
+  {
+    "question_id": "E66_S1_Q7.1_C2",
+    "question_text": "จงอธิบายข้อแตกต่างของ Load cell แบบ 0.5-4.5V Output เทียบกับแบบ mV Output",
+    "question_type": "Comparison",
+    "related_CLO": [
+      "CLO2"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E66_S1_Q7.2_C3",
+    "question_text": "จงคำนวณแรงดันออกหากนำ Load cell FX29 ไปวัดโหลดขนาด 10 kg (อ้างอิง Datasheet: Range 100 LBF, Output 0.5-4.5V )",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 300
+  },
+  {
+    "question_id": "E66_S1_Q7.3_C3",
+    "question_text": "จงคำนวณความละเอียดในการวัดแรงกด (LBF) เมื่อใช้ Arduino ที่มี ADC 10 บิต แรงดันอ้างอิง 5 โวลต์ กับ Load cell FX29",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3",
+      "CLO5"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 300
+  },
+  {
+    "question_id": "E66_S1_Q8_C3",
+    "question_text": "จงแสดงการออกแบบวงจรและคำนวณค่าเมื่อใช้โหลดเซลล์ FX29 รุ่น 0100 LBF แบบ mV Output เพื่อวัดโหลดขนาด 10 kg ด้วยไมโครคอนโทรลเลอร์ ESP32 ที่มีย่านการวัดแรงดัน 0 ~ 2.5 โวลต์",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 600
+  }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "question_id": "E67_S2_Q1.1_C1",
+    "question_text": "อธิบายหลักการทำงานของเซ็นเซอร์ LDR",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO1"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 120
+  },
+  {
+    "question_id": "E67_S2_Q1.2_C2",
+    "question_text": "อธิบายการเลือกเซ็นเซอร์สำหรับการวัดอุณหภูมิ 50 - 200 องศาเซลเซียส ภายในเตาอบ",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO2"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E67_S2_Q1.3_C2",
+    "question_text": "อภิปรายการเลือกเซ็นเซอร์ที่ใช้วัดระดับในถังเก็บของเหลวประเภทแอลกอฮอล์ ให้อธิบายหลักการของเซ็นเซอร์นั้นด้วย",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO2"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E67_S2_Q1.4_C5",
+    "question_text": "อธิบายการหาคุณสมบัติ y = mx + c ของเซ็นเซอร์ thermocouple แบบ K จากกราฟคุณสมบัติ",
+    "question_type": "Data Interpretation",
+    "related_CLO": [
+      "CLO1",
+      "CLO5"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E67_S2_Q2.1_C2",
+    "question_text": "เขียนรูปและอธิบายหลักการทำงานของวงจรที่ใช้วัดกระแสไฟฟ้าด้วยออสซิลโลสโคป",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO2"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E67_S2_Q2.2_C3",
+    "question_text": "เขียนรูปวงจรและอธิบายการหา input impedance ของวงจรขยายแบบ non-inverting",
+    "question_type": "Derivation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E67_S2_Q2.3_C3",
+    "question_text": "อธิบายหลักการทำงานและข้อดีของวงจร instrumentation amplifier จากรูปวงจร 3-OpAmp",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E67_S2_Q2.4_C3",
+    "question_text": "แสดงการคำนวณแรงดันออกของวงจรขยาย AD623 เมื่อกำหนดให้อัตราขยาย 100 เท่าและสัญญาณขาเข้าคือ V1 = 10 + 0.01 sin(2100t) โวลต์, V2 = 10 โวลต์",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 300
+  },
+  {
+    "question_id": "E67_S2_Q3.1_C3",
+    "question_text": "อธิบายหลักการวัดสัญญาณด้วยช่องวัด AI0 และ AI1 ของหัวต่อ MSP C บน myRIO (Differential Mode)",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E67_S2_Q3.2_C3",
+    "question_text": "คำนวณความละเอียดในการวัดแรงดันไฟฟ้าของช่องวัด AI0 และ AI1 ของหัวต่อ MSP C (อ้างอิง Spec: +/-10V, 12 bits)",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E67_S2_Q3.3_C3",
+    "question_text": "คำนวณค่าแรงดันไฟฟ้าที่วัดหากค่าดิจิทัลที่อ่านด้วยหัวต่อ AI0 ของ MXP A คือ 3000 (อ้างอิง Spec: 0-5V, 12 bits)",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E67_S2_Q3.4_C3",
+    "question_text": "คำนวณค่าดิจิทัลที่อ่านด้วยหัวต่อ AI0 ของ MSP C เมื่อวัดแรงดันไฟฟ้า 5 โวลต์ (อ้างอิง Spec: +/-10V, 12 bits)",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E67_S2_Q4.1_C3",
+    "question_text": "อธิบายว่า Node-RED ทำหน้าที่อะไรในระบบการวัดด้วยคอมพิวเตอร์",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E67_S2_Q4.2_C2",
+    "question_text": "อธิบายความแตกต่างของ BMP280 ที่เป็น digital sensor เทียบกับเซ็นเซอร์แบบแอนะล็อก",
+    "question_type": "Comparison",
+    "related_CLO": [
+      "CLO2"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E67_S2_Q4.3_C2",
+    "question_text": "อธิบายประโยชน์ 2 ข้อของการใช้บอร์ด Cucumber RS เป็น IoT sensor เพื่อวัดความดันอากาศด้วย BMP280",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO2"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E67_S2_Q4.4_C2",
+    "question_text": "อธิบายหลักการและประโยชน์ของเซ็นเซอร์ MPU-6050 บนบอร์ด Cucumber RS เพื่อตรวจจับการสั่นสะเทือนของอาคาร",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO2"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E67_S2_Q5.1_C4",
+    "question_text": "อธิบายสถานการณ์และผลกระทบของการเกิด ground loop",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E67_S2_Q5.2_C4",
+    "question_text": "อธิบายหลักการของการลดทอนสัญญาณรบกวนด้วยเทคนิค EMI shielding",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E67_S2_Q5.3_C4",
+    "question_text": "อธิบายหลักการของการลดทอนสัญญาณรบกวนด้วยวงจร Differential Amplifier",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E67_S2_Q5.4_C4",
+    "question_text": "อธิบายหลักการของ 4-20 mA current loop และทำไมจึงเหมาะกับการส่งสัญญาณเป็นระยะทางไกล",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E67_S2_Q6.1_C5",
+    "question_text": "แสดงการคำนวณคุณสมบัติ y = mx + c ของเซ็นเซอร์ MCP9701 จากการสอบเทียบ (ข้อมูล: 20C->0.40V, 40C->0.99V, 60C->1.18V, 80C->1.95V)",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO5"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 480
+  },
+  {
+    "question_id": "E67_S2_Q6.2_C5",
+    "question_text": "คำนวณหาค่า nominal และ uncertainty ของอุณหภูมิจากการสุ่มวัดตัวอย่าง 10 ครั้ง (ข้อมูลดิบ: 795, 785, 790, 794, 797, 798, 790, 782, 783, 785 mV)",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO5"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 480
+  },
+  {
+    "question_id": "E67_S2_Q7_C3",
+    "question_text": "จงออกแบบระบบการวัดอุณหภูมิด้วยคอมพิวเตอร์ซึ่งใช้เซ็นเซอร์ MCP9701, ไอซี AD623, และ myRIO DAQ ตามเงื่อนไข: ย่านการวัด 10 C ถึง 50 C, ความละเอียดไม่ด้อยกว่า 0.01 C",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 600
+  }
+]

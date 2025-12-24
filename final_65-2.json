@@ -1,0 +1,288 @@
+[
+  {
+    "question_id": "E65_S2_Q1.1_C1",
+    "question_text": "จงอธิบายหลักการทำงานของเซ็นเซอร์ RTD",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO1"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 120,
+    "reference_context": "[cite: 602]"
+  },
+  {
+    "question_id": "E65_S2_Q1.2_C1",
+    "question_text": "จงอธิบายหลักการทำงานของเซ็นเซอร์วัดความชื้น",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO1"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 120,
+    "reference_context": "[cite: 606]"
+  },
+  {
+    "question_id": "E65_S2_Q1.3_C3",
+    "question_text": "จงเขียนวงจรและอธิบายสมการสำหรับวัดเซ็นเซอร์ LDR",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": "[cite: 607]"
+  },
+  {
+    "question_id": "E65_S2_Q1.4_C3",
+    "question_text": "จงอธิบายหลักการวัดความเก็บประจุด้วยบอร์ดไมโครคอนโทรลเลอร์",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": "อ้างอิงรูปวงจร Arduino RC Charging ที่มี R1, R2 และ Unknown Capacitor [cite: 594, 610-615]"
+  },
+  {
+    "question_id": "E65_S2_Q2.1_C1",
+    "question_text": "จงอธิบายหลักการทำงานของ thermocouple",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO1"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 120,
+    "reference_context": "[cite: 618]"
+  },
+  {
+    "question_id": "E65_S2_Q2.2_C2",
+    "question_text": "จงเปรียบเทียบระหว่าง turbine flowmeter และ magnetic flowmeter",
+    "question_type": "Comparison",
+    "related_CLO": [
+      "CLO2"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180,
+    "reference_context": "[cite: 619]"
+  },
+  {
+    "question_id": "E65_S2_Q2.3_C2",
+    "question_text": "จงอธิบายข้อควรระวังและเซ็นเซอร์สำหรับวัดความสูงของระดับน้ำมันในถังเก็บ",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO2"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180,
+    "reference_context": "[cite: 620]"
+  },
+  {
+    "question_id": "E65_S2_Q2.4_C3",
+    "question_text": "จงอธิบายหลักการทำงานของไอซี AD594 ในการใช้งานร่วมกับ thermocouple",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": "อ้างอิง Block Diagram ของ AD594/AD595 [cite: 622-644]"
+  },
+  {
+    "question_id": "E65_S2_Q3.1_C3",
+    "question_text": "จงเขียนรูปวงจรและอธิบายหลักการแปลงความต้านทานของ RTD เป็นแรงดันไฟฟ้าด้วยหลักการ current excitation",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": "[cite: 646]"
+  },
+  {
+    "question_id": "E65_S2_Q3.2_C3",
+    "question_text": "จงอธิบายความแตกต่างของวงจรขยายแบบ differential amplifier และวงจร non-inverting amplifier",
+    "question_type": "Comparison",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180,
+    "reference_context": "[cite: 647]"
+  },
+  {
+    "question_id": "E65_S2_Q3.3_C3",
+    "question_text": "จงเขียนรูปวงจรและหาความต้านทานขาเข้าของวงจร non-inverting amplifier",
+    "question_type": "Derivation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": "[cite: 648]"
+  },
+  {
+    "question_id": "E65_S2_Q3.4_C3",
+    "question_text": "จงพิสูจน์ประเภทของของวงจรกรองด้วยการพิจารณาสมการผลตอบเชิงความถี่",
+    "question_type": "Derivation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 300,
+    "reference_context": "อ้างอิงรูป Simple RC Filter [cite: 650-654]"
+  },
+  {
+    "question_id": "E65_S2_Q4.1_C3",
+    "question_text": "จงเขียนสมการแรงดันออกของ differential amplifier",
+    "question_type": "Recall",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 120,
+    "reference_context": "[cite: 656]"
+  },
+  {
+    "question_id": "E65_S2_Q4.2_C3",
+    "question_text": "จงอธิบายหลักการทำงานของ instrumentation amplifier",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180,
+    "reference_context": "อ้างอิงรูปวงจร Instrumentation Amplifier (3 Op-Amps) [cite: 659-670]"
+  },
+  {
+    "question_id": "E65_S2_Q4.3_C3",
+    "question_text": "จงคำนวณแรงดันออกของวงจรขยาย AD620 เมื่อขยายด้วยอัตราขยาย 100 เท่า",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 300,
+    "reference_context": "สัญญาณ V1 = 10 + 0.01 sin 10t โวลต์ และ V2 = 10 โวลต์ [cite: 672], ข้อมูล AD620 หน้า 4 [cite: 752-785]"
+  },
+  {
+    "question_id": "E65_S2_Q4.4_C3",
+    "question_text": "จงพิสูจน์ว่าผลกระทบของแรงดัน common-mode จะลดลงอย่างมาก หากใช้ AD620 ต่ออนุกรมกัน 2 ตัว โดยให้ Ad ของตัวแรก 1 เท่าและ Ad ของตัวที่สอง 100 เท่า",
+    "question_type": "Derivation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 360,
+    "reference_context": "[cite: 674]"
+  },
+  {
+    "question_id": "E65_S2_Q5.1_C3",
+    "question_text": "จงอธิบายด้วย specification ว่าความถี่สูงสุดของสัญญาณที่วัดได้คือเท่าไร",
+    "question_type": "Data Interpretation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 120,
+    "reference_context": "อ้างอิงเอกสาร myRIO specification [cite: 696-751]"
+  },
+  {
+    "question_id": "E65_S2_Q5.2_C3",
+    "question_text": "จงอธิบายว่าการต่อวัดสัญญาณแอนะล็อกด้วยหัวต่อ MXP และ MSP แตกต่างกันอย่างไร",
+    "question_type": "Comparison",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180,
+    "reference_context": "อ้างอิง Spec myRIO (Single-ended vs Differential) [cite: 736, 754]"
+  },
+  {
+    "question_id": "E65_S2_Q5.3_C3",
+    "question_text": "จงคำนวณแรงดันที่วัดเมื่ออ่านค่าดิจิทัลได้ 1000 ทางหัวต่อ MXP",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": "อ้างอิง Spec myRIO: Resolution 12 bit, Range 0-5V [cite: 730, 741]"
+  },
+  {
+    "question_id": "E65_S2_Q5.4_C3",
+    "question_text": "จงคำนวณค่าดิจิทัลเมื่อวัดแรงดัน 3.3 โวลต์ทางหัวต่อ MSP",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": "อ้างอิง Spec myRIO: Resolution 12 bit, Range +/-10V [cite: 730, 756]"
+  },
+  {
+    "question_id": "E65_S2_Q6.1_C4",
+    "question_text": "จงอธิบายสัญญาณรบกวนที่เกิดขึ้นหากต่อวัดแรงดันไฟฟ้าจากจุดที่ห่างไปหลายสิบเมตร",
+    "question_type": "Analysis",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180,
+    "reference_context": "[cite: 681]"
+  },
+  {
+    "question_id": "E65_S2_Q6.2_C4",
+    "question_text": "จงอธิบายผลกระทบของสัญญาณรบกวนแบบ EMI เมื่อเทียบกับแบบอื่น",
+    "question_type": "Comparison",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180,
+    "reference_context": "[cite: 682]"
+  },
+  {
+    "question_id": "E65_S2_Q6.3_C4",
+    "question_text": "จงอธิบายหลักการลดสัญญาณรบกวนด้วยสาย twisted-pair และ differential amplifier",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240,
+    "reference_context": "อ้างอิงรูปวงจร Differential Signaling [cite: 684-687]"
+  },
+  {
+    "question_id": "E65_S2_Q6.4_C4",
+    "question_text": "จงอธิบายแนวทางลดทอนสัญญาณรบกวนแบบ EMI",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180,
+    "reference_context": "[cite: 688]"
+  },
+  {
+    "question_id": "E65_S2_Q7.1_C5",
+    "question_text": "จงแสดงการชดเชยความผิดพลาดของ AD594 ร่วมกับ thermocouple ด้วยการสอบเทียบ",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO5"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 360,
+    "reference_context": "ตารางข้อมูลการสอบเทียบ: 0C->20mV, 50C->520mV, 100C->1020mV, 200C->2020mV, 300C->3020mV "
+  },
+  {
+    "question_id": "E65_S2_Q7.2_C5",
+    "question_text": "จงคำนวณค่า nominal และ uncertainty ของข้อมูลที่ได้จากการวัด",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO5"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 420,
+    "reference_context": "ตารางข้อมูลดิบ: 490, 480, 500, 470, 500, 510, 520, 520, 530, 530 "
+  }
+]

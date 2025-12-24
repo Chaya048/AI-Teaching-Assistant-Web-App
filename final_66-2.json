@@ -1,0 +1,284 @@
+[
+  {
+    "question_id": "E66_S2_Q1.1_C1",
+    "question_text": "จงยกตัวอย่างและหลักการทำงานแบบเซ็นเซอร์แบบ capacitive transduction",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO1"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E66_S2_Q1.2_C1",
+    "question_text": "จงอธิบายหลักการทำงานของเซ็นเซอร์ RTD",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO1"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 120
+  },
+  {
+    "question_id": "E66_S2_Q1.3_C3",
+    "question_text": "จงเขียนรูปวงจรและสมการสำหรับแปลงค่าความต้านทานเป็นแรงดันไฟฟ้า",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E66_S2_Q1.4_C3",
+    "question_text": "จงเขียนวงจรและอธิบายหลักการวัดค่าความเก็บประจุของเซ็นเซอร์",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E66_S2_Q2.1_C2",
+    "question_text": "จงเขียนรูปวงจรและสมการของการวัดกระแสไฟฟ้าแบบ AC โดยใช้หม้อแปลงกระแส",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO2",
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E66_S2_Q2.2_C3",
+    "question_text": "จงหาค่าอิมพีแดนซ์ขาเข้า (input impedance) ของวงจรดังรูป (อ้างอิงรูปวงจร Op-Amp Buffer ในเอกสาร )",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E66_S2_Q2.3_C3",
+    "question_text": "จงเขียนรูปวงจรสำหรับการวัดกระแสด้วยเทคนิค shunt resistor และอธิบายความจำเป็นของ differential amplifier สำหรับวงจรดังกล่าว",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 300
+  },
+  {
+    "question_id": "E66_S2_Q2.4_C4",
+    "question_text": "จงอธิบายมา 2 หลักการในการทำให้เกิดการแยกกันทางไฟฟ้า (electrical isolation) ระหว่างวงจร",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E66_S2_Q3.1_C3",
+    "question_text": "จงอธิบายข้อดีของการใช้ instrumentation amplifier ในการวัดเมื่อเทียบกับวงจรขยาย opamp ทั่วไป ",
+    "question_type": "Comparison",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E66_S2_Q3.2_C3",
+    "question_text": "จงยกตัวอย่างของสถานการณ์ที่ทำให้เกิด common-mode voltage และอธิบายผลกระทบที่มีต่อการวัด",
+    "question_type": "Analysis",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E66_S2_Q3.3_C3",
+    "question_text": "จงคำนวณแรงดันออกของวงจร INA827 เมื่อกำหนดอัตราขยายแรงดัน 10 เท่า (ข้อมูลสัญญาณ V1 = 12 + 0.1 sin 50t, V2 = 12 Volts) ",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 300
+  },
+  {
+    "question_id": "E66_S2_Q3.4_C3",
+    "question_text": "จงพิสูจน์ด้วยการคำนวณว่าหากใช้วงจร INA128 (120 dB CMRR, offset voltage: 50 uV, drift: 0.5 uV/C) แทน INA827 จะมีข้อดี/ข้อเสียอย่างไร ",
+    "question_type": "Analysis",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 420
+  },
+  {
+    "question_id": "E66_S2_Q4.1_C3",
+    "question_text": "จงอธิบายความหมายของ singled-ended channel สำหรับหัวต่อ MXP A/B ของ myRIO ",
+    "question_type": "Data Interpretation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 120
+  },
+  {
+    "question_id": "E66_S2_Q4.2_C3",
+    "question_text": "จงอธิบายการประยุกต์หลักการ Nyquist sampling theorem กับ myRIO DAQ",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E66_S2_Q4.3_C3",
+    "question_text": "จงคำนวณความละเอียดของแรงดันที่วัดได้ของหัวต่อ MXP A/B ",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E66_S2_Q4.4_C3",
+    "question_text": "จงคำนวณแรงดันที่วัดเมื่อใช้ช่องวัด AIO วัดได้ค่าดิจิทัลเท่ากับ 3000 ",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E66_S2_Q5.1_C4",
+    "question_text": "จงอธิบายหลักการของ noise coupling แบบ capacitive และ inductive ",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E66_S2_Q5.2_C4",
+    "question_text": "จงยกตัวอย่างของสถานการณ์ที่ทำให้เกิด ground loop และอภิปรายผลกระทบที่จะเกิดขึ้นในการวัด ",
+    "question_type": "Analysis",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E66_S2_Q5.3_C4",
+    "question_text": "จงอธิบายหลักการที่เทคนิค shielding และ grounding สามารถลดทอนสัญญาณในสายส่งสัญญาณได้ ",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E66_S2_Q5.4_C4",
+    "question_text": "จงวาดรูปและอธิบายหลักการว่าเทคนิค twisted pair cable, differential amplifier, และ cable shield สามารถลดทอนสัญญาณรบกวนในการส่งสัญญาณเป็นระยะทางไกล ",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 360
+  },
+  {
+    "question_id": "E66_S2_Q6.1_C5",
+    "question_text": "จงใช้เทคนิค linear regression หาสมการลักษณะสมบัติจากข้อมูลการสอบเทียบเซ็นเซอร์ MCP9700 (ข้อมูล: T=0,20,40,60,80 C; V=0.53,0.73,0.96,1.17,1.39 V) ",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO5"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 480
+  },
+  {
+    "question_id": "E66_S2_Q6.2_C5",
+    "question_text": "จงคำนวณหาค่า nominal และ uncertainty จากการสุ่มตัวอย่างเซ็นเซอร์ 10 ตัวมาวัดอุณหภูมิ 25 C (ข้อมูลดิบ: 785, 787, 788, 789, 789, 791, 791, 792, 792, 793 mV) ",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO5"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 480
+  },
+  {
+    "question_id": "E66_S2_Q6.3_C5",
+    "question_text": "จงใช้ผลของข้อ 6.1 และ/หรือ 6.2 มาประเมินว่าเซ็นเซอร์ที่เรามีอยู่ มีคุณสมบัติสอดคล้องกับ datasheet หรือไม่ ",
+    "question_type": "Analysis",
+    "related_CLO": [
+      "CLO5"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E66_S2_Q7.1_C3",
+    "question_text": "จงคำนวณย่านของแรงดันออกของเซ็นเซอร์ MCP9700 ",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E66_S2_Q7.2_C3",
+    "question_text": "จงคำนวณค่าดิจิทัลของอุณหภูมิ 40 C ที่ได้จาก myRIO เมื่อต่อเซ็นเซอร์ MCP9700 โดยตรงกับหัวต่อ MXP A/B ",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E66_S2_Q7.3_C3",
+    "question_text": "จงคำนวณความละเอียดของอุณหภูมิที่วัดได้ของปัญหาข้อ 7.2 ",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3",
+      "CLO5"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E66_S2_Q7.4_C3",
+    "question_text": "จงพิสูจน์ว่าเมื่อใช้ INA827 จะสามารถเพิ่มความละเอียดในการวัดอุณหภูมิ ",
+    "question_type": "Derivation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 300
+  },
+  {
+    "question_id": "E66_S2_Q8_C3",
+    "question_text": "จงออกแบบระบบการวัดอุณหภูมิด้วยคอมพิวเตอร์ซึ่งใช้เซ็นเซอร์ MCP9700, ไอซี INA827, และ myRIO DAQ ตามเงื่อนไข (ย่านวัด -20 ถึง 100 C, ความละเอียด >= 0.1 C)",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 600
+  }
+]

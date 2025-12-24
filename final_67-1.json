@@ -1,0 +1,274 @@
+[
+  {
+    "question_id": "E67_S1_Q1.1_C1",
+    "question_text": "เขียนรูปวงจรและอธิบายหลักการวัดกระแสไฟฟ้าแบบ DC",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO1"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E67_S1_Q1.2_C2",
+    "question_text": "อธิบายข้อแตกต่างในแง่หลักการทำงานของวัตต์มิเตอร์แบบแอนะล็อกและแบบดิจิทัล",
+    "question_type": "Comparison",
+    "related_CLO": [
+      "CLO2"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E67_S1_Q1.3_C1",
+    "question_text": "เขียนรูปวงจรและอธิบายการวัดกำลังไฟฟ้าของโหลด 3 เฟสที่วงจรภายในเป็นแบบ DELTA",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO1"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 300
+  },
+  {
+    "question_id": "E67_S1_Q1.4_C2",
+    "question_text": "เขียนรูปวงจรและอธิบายการคำนวณเมื่อใช้ current transformer แบบ 50/5A วัดโหลดขนาด 5 kW",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO2"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 300
+  },
+  {
+    "question_id": "E67_S1_Q2.1_C2",
+    "question_text": "ยกตัวอย่างของปรากฏการณ์ที่ประยุกต์เป็น resistive transduction และเซ็นเซอร์ที่ใช้หลักการนั้น",
+    "question_type": "Recall",
+    "related_CLO": [
+      "CLO2"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 120
+  },
+  {
+    "question_id": "E67_S1_Q2.2_C2",
+    "question_text": "ยกตัวอย่างของหลักการทำงานของ proximity sensor และอธิบายข้อดี/ข้อจำกัด",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO2"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E67_S1_Q2.3_C3",
+    "question_text": "อธิบายหลักการทำงานและความจำเป็นของการใช้งานไอซี AD594 กับ thermocouple",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E67_S1_Q2.4_C2",
+    "question_text": "คำนวณค่า sensitivity และ offset ของ thermocouple แบบ type J",
+    "question_type": "Data Interpretation",
+    "related_CLO": [
+      "CLO2"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E67_S1_Q3.1_C3",
+    "question_text": "เขียนรูปและอธิบายวงจรที่จำเป็นสำหรับการใช้เซ็นเซอร์ thermistor กับ DAQ",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E67_S1_Q3.2_C3",
+    "question_text": "อธิบายวิธีการตั้งค่าอัตราขยายของ instrumentation amplifier เท่ากับ 100 เท่า (INA121)",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Easy",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E67_S1_Q3.3_C3",
+    "question_text": "อธิบายหน้าที่และความจำเป็นของออปแอมป์ A1 และ A2 ในรูปวงจร INA121",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E67_S1_Q3.4_C3",
+    "question_text": "คำนวณแรงดันออกเมื่อวัดสัญญาณที่มี Delta V = 10 mV, Vcm = 1V เมื่อ Av = 100 เท่า และ CMRR 100 dB",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 360
+  },
+  {
+    "question_id": "E67_S1_Q4.1_C3",
+    "question_text": "อธิบายข้อแตกต่างในวิธีการต่อวัดแรงดันไฟฟ้าทางหัวต่อ MXP A/B และ MSP C",
+    "question_type": "Comparison",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E67_S1_Q4.2_C3",
+    "question_text": "คำนวณ code width ของการวัดแรงดันไฟฟ้าด้วยหัวต่อ MSP C",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E67_S1_Q4.3_C3",
+    "question_text": "คำนวณแรงดันเมื่อวัดด้วยหัวต่อ MXP A และอ่านค่าดิจิทัลได้ 2500",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E67_S1_Q4.4_C3",
+    "question_text": "เขียนวงจรและอธิบายการใช้ myRIO เพื่อวัดค่าความเก็บประจุของเซ็นเซอร์วัดความชื้น",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 300
+  },
+  {
+    "question_id": "E67_S1_Q5.1_C4",
+    "question_text": "อธิบายสาเหตุและผลกระทบของ ground loop",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E67_S1_Q5.2_C4",
+    "question_text": "อธิบายว่าทำไมเมื่อใช้เทคนิค shielding และ grounding ร่วมกันจึงลดทอนสัญญาณรบกวนได้มากขึ้น",
+    "question_type": "Principle/Mechanism",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E67_S1_Q5.3_C4",
+    "question_text": "เขียนรูปและอธิบายหลักการลดทอนสัญญาณรบกวนจาก ground loop ด้วย differential amplifier",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 300
+  },
+  {
+    "question_id": "E67_S1_Q5.4_C4",
+    "question_text": "อธิบายสาเหตุและวิธีแก้ไขปัญหาของสัญญาณรบกวนที่เกิดขึ้นในการวัดแรงดันไฟฟ้าของ solar panel บนชั้น 7 เมื่อคอมพิวเตอร์ที่ใช้วัดอยู่ที่ชั้น 1",
+    "question_type": "Analysis",
+    "related_CLO": [
+      "CLO4"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 300
+  },
+  {
+    "question_id": "E67_S1_Q6.1_C5",
+    "question_text": "จงใช้เทคนิค linear regression หาสมการลักษณะสมบัติจากข้อมูลการสอบเทียบเซ็นเซอร์ (ข้อมูล: T=0,20,40,60,80; V=0.05,0.23,0.42,0.6,0.78)",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO5"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 480
+  },
+  {
+    "question_id": "E67_S1_Q6.2_C5",
+    "question_text": "คำนวณหาค่า nominal และ uncertainty จากการสุ่มตัวอย่างเซ็นเซอร์ 8 ตัวมาวัดอุณหภูมิ 25 องศาเซลเซียส",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO5"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 420
+  },
+  {
+    "question_id": "E67_S1_Q7.1_C1",
+    "question_text": "อธิบายความหมายของค่า B (25C/85C) ของ Thermistor",
+    "question_type": "Data Interpretation",
+    "related_CLO": [
+      "CLO1",
+      "CLO2"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 180
+  },
+  {
+    "question_id": "E67_S1_Q7.2_C3",
+    "question_text": "เขียนรูปและอธิบายหลักการทำงานของวงจรที่เชื่อมต่อ thermistor กับ myRIO DAQ",
+    "question_type": "Application",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 240
+  },
+  {
+    "question_id": "E67_S1_Q7.3_C3",
+    "question_text": "คำนวณค่าของอุปกรณ์ของวงจรในข้อ 7.1 เมื่อต้องการย่านการวัดอุณหภูมิ 0 องศาเซลเซียส ถึง 60 องศาเซลเซียส โดยกำหนดให้ใช้ไฟเลี้ยง 5 โวลต์จาก myRIO DAQ",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 420
+  },
+  {
+    "question_id": "E67_S1_Q7.4_C3",
+    "question_text": "คำนวณค่าดิจิทัลที่อ่านได้ เมื่อต่อวัดแรงดันไฟฟ้าของวงจรในข้อ 7.2 ด้วยหัวต่อ MSP C",
+    "question_type": "Calculation",
+    "related_CLO": [
+      "CLO3"
+    ],
+    "difficulty": "Medium",
+    "estimated_time_sec": 300
+  },
+  {
+    "question_id": "E67_S1_Q7.5_C3",
+    "question_text": "พิสูจน์ว่าความละเอียดในการวัดอุณหภูมิไม่ด้อยกว่า 0.5 องศาเซลเซียส ตลอดย่านการวัด หากไม่สามารถวัดด้วยความละเอียดได้ ให้อธิบายแนวทางในการแก้ไขปัญหา",
+    "question_type": "Derivation",
+    "related_CLO": [
+      "CLO3",
+      "CLO5"
+    ],
+    "difficulty": "Hard",
+    "estimated_time_sec": 480
+  }
+]
