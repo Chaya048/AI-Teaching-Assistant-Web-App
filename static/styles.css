@@ -1,0 +1,39 @@
+/* จัด layout ของแถว */
+.chat-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 10px;
+}
+
+/* ตกแต่งกล่องข้อความ */
+.chat-bubble {
+    padding: 10px 15px;
+    border-radius: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+        
+ /* สีของ AI (ซ้าย) */
+.ai-bubble {
+    color: #ffffff;
+    border-top-left-radius: 0;
+}
+        
+/* สีของ User (ขวา) */
+.user-bubble {
+    background-color: #343537; /* สีแดง Theme (แก้ได้) */
+    color: white;
+    border-top-right-radius: 0;
+}
+/* icon */
+.chat-icon {
+    border-radius: 5px;
+}
