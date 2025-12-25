@@ -1,6 +1,5 @@
-# AI-Teaching-Assistant-Web-App
+# AI-Teaching-Assistant-Web
 
-LE380 Measurement Project
 - Developed a Streamlit-based chatbot for the coursework, integrating Google Gemini with past exam archives to provide personalized tutoring and solution explanations.
 
 ---
